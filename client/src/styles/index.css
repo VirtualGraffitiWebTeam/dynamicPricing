@@ -7,3 +7,59 @@ body {
 #root {
   background-color: #cccccc !important;
 }
+
+.card-title {
+  font-size: 18px;
+  padding: 0;
+}
+
+p {
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.panel-heading{
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 15px;
+}
+
+.panel-body {
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+.smallHeaderText {
+  margin-bottom: 5px;
+}
+
+.info-card {
+  padding-bottom: 0;
+}
+
+.cart-card {
+  padding-top: 0;
+}
+
+.main-card-img {
+  height: 150px;
+  max-width: 200px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main-card-img img {
+  max-height: 150px;
+  max-width: 100%;
+}
+
+.main-card-container {
+  display: flex;
+  justify-content: center;
+}
